@@ -1,0 +1,168 @@
+\documentclass{mycv}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage[colorlinks=true, pdfstartview=FitV,
+linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+
+\author{Ayush Debnath}
+\RollNumber{IIT Kharagpur}
+\CourseVar{B.Tech. (Hons.) in Mechanical Engineering and M.Tech. in Manufacturing Science and Engineering}
+\Address{E-mail: \href{mailto:ayush.d@kgpian.iitkgp.ac.in}{ayush.d@kgpian.iitkgp.ac.in}}
+\PhoneNumber{Phone: +91-9432386627}
+\Email{Portfolio: \href{https://ayushdebnath012.github.io/Portfolio/}{Ayush Debnath}}
+\definecolor{mygray}{gray}{0.4}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\begin{EducationTable}
+\EduDetails{Dual Degree (B.Tech. + M.Tech.)}{Indian Institute of Technology Kharagpur}{8.03/10}{}{2027}
+\EduDetails{All India Senior School Certification Examination}{South Point High School, Kolkata}{95.8\%}{}{2021}
+\EduDetails{All India Secondary School Examination}{South Point High School, Kolkata}{97\%}{}{2019}
+\end{EducationTable}
+\vspace{-0.75em}
+
+\section{Competition/Conference}
+\datedsubsection{\textbf{IEEE GLOBECOM 2026}}{\textcolor{mygray}{Dec 2026}}
+\Point{Accepted paper at \textbf{IEEE GLOBECOM 2026 (SAC E-Health)}: \textit{OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis}.}
+\vspace{-0.5em}
+\Point{Developed a \textbf{multimodal federated learning} framework combining medical imaging and clinical text while preserving decentralized patient-data privacy.}
+\vspace{-0.5em}
+\Point{Achieved \textbf{0.956 Macro-F1}, retaining \textbf{99.1\%} of centralized-model performance under non-IID settings, with explainability and evidence retrieval for clinical decision support.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{International Conference on Applied AI and Scientific Machine Learning}}{\textcolor{mygray}{Dec 2024}}
+\Point{Presented a research poster on \textbf{Physics-Informed Neural Networks (PINNs)} at CASML 2024, IISc Bangalore.}
+\vspace{-0.5em}
+\Point{Explored the integration of neural networks with governing physical equations for scientific and engineering problem solving.}
+\vspace{-0.5em}
+\Point{Participated in a pre-conference workshop on Applied AI and Scientific Machine Learning, gaining exposure to recent physics-informed and data-driven methods.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Open IIT OpenSoft 2025 - AI-Powered HR Chatbot, IIT Kharagpur}}{\textcolor{mygray}{Mar 2025 - May 2025}}
+\Point{Won \textbf{Silver} in Open IIT OpenSoft 2025 by developing an AI-powered HR chatbot for employee engagement, well-being monitoring, and personalized conversations.}
+\vspace{-0.5em}
+\Point{Integrated \textbf{GPT-4}, \textbf{DistilBERT} sentiment analysis, and \textbf{SHAP}-based explainability to identify at-risk employees and generate context-aware HR interactions.}
+\vspace{-0.5em}
+\Point{Built a full-stack platform using \textbf{Next.js}, \textbf{FastAPI}, and \textbf{PostgreSQL}, with HR analytics dashboards, employee reports, and automated workflows.}
+
+\vspace{0.15em}
+\section{Internships}
+\datedsubsection{\textbf{Research Intern - Carnegie Mellon University}}{\textcolor{mygray}{July 2026 - Present}}
+\textit{(Advised by Mosam Dabhi, PhD, Robotics Institute, Carnegie Mellon University; Prof. Simon Lucey; and Prof. Laszlo Jeni)}
+\Point{Conducting reproducible evaluations of video world models across \textbf{WorldBench}, \textbf{WorldArena}, and \textbf{Omni-WorldBench}, identifying gaps in physical-state estimation, causal consistency, and downstream-task performance.}
+\vspace{-0.5em}
+\Point{Building Python pipelines to validate benchmark data, compare model results, generate publication-ready figures and tables, and ensure deterministic analysis through automated tests.}
+\vspace{-0.5em}
+\Point{Designing evaluation protocols for state-aware robotic policies, benchmarking world models, vision-language-action models, and diffusion policies across physical reasoning and control tasks.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Research Intern - Purdue University}}{\textcolor{mygray}{Nov 2025 - Aug 2026}}
+\textit{(Advised by Professor Sayeed Shafayet Chowdhury, Department of Computer Science, Purdue University)}
+\Point{Developed \textbf{Adaptive Spiking PointNet (ASP)} for energy-efficient 3D point-cloud recognition on \textbf{ModelNet40}, using LIF neurons and temporal spiking computation.}
+\vspace{-0.5em}
+\Point{Designed an \textbf{active slice-selection mechanism} for anytime inference, processing only \textbf{2.4 of 16 temporal slices} on average while maintaining strong classification performance.}
+\vspace{-0.5em}
+\Point{Achieved \textbf{89.10\%} ModelNet40 and \textbf{93.28\%} ModelNet10 accuracy, outperforming fixed-order baselines at a \textbf{24.5\% mean firing rate}.}
+\vspace{-0.5em}
+\Point{Implemented surrogate-gradient training, cross-attention-based slice selection, and firing-rate regularization to optimize the accuracy-latency-energy trade-off.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Research Intern - Carnegie Mellon University}}{\textcolor{mygray}{Oct 2025 - Present}}
+\textit{(Advised by Professor Zico Kolter, School of Computer Science, Carnegie Mellon University)}
+\Point{Developed a training-free SVG generation and editing pipeline using pretrained diffusion models and frozen vision-language models to convert raster concepts into editable vector graphics.}
+\vspace{-0.5em}
+\Point{Designed a \textbf{DiffuSVG} workflow where diffusion handled image-space generation and a VLM extracted shapes, colors, positions, and z-order to produce compact SVG markup.}
+\vspace{-0.5em}
+\Point{Integrated \textbf{CairoSVG}, \textbf{DiffVG}, \textbf{CLIP}, and \textbf{DINO}-based evaluation and refinement, enabling render-compare-refine iterations.}
+\vspace{-0.5em}
+\Point{Achieved \textbf{92\% valid SVG generation} with about \textbf{3.5 elements per SVG}; documented complex-shape limitations.}
+
+\clearpage
+\vspace*{0em}
+\datedsubsection{\textbf{Research Intern - Stanford University}}{\textcolor{mygray}{Dec 2025 - Present}}
+\textit{(Advised by Professor Tapan Mukherji, Department of Energy Resources Engineering, Stanford University)}
+\Point{Developed \textbf{Physics-Informed Neural Networks (PINNs)} and \textbf{Fourier Neural Operators (FNOs)} for elastic wave-propagation PDEs with governing physical constraints.}
+\vspace{-0.5em}
+\Point{Benchmarked learning-based PDE solvers against finite-difference and finite-element methods, evaluating accuracy, stability, and physical consistency.}
+\vspace{-0.5em}
+\Point{Implemented physics-informed loss functions combining governing-equation residuals with initial and boundary conditions to improve physically valid predictions.}
+\vspace{-0.5em}
+\Point{Investigated FNO-based operator learning for fast surrogate modeling of wave dynamics across varying initial and boundary conditions.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Computer Vision Intern - IISc Bangalore}}{\textcolor{mygray}{Dec 2024 - Apr 2025}}
+\textit{(Advised by Professor S.N. Omkar, Aerospace Engineering Department, IISc Bangalore)}
+\Point{Implemented optical flow (\textbf{Lucas-Kanade}), \textbf{YOLO v11}, and \textbf{MediaPipe} for motion tracking and analysis.}
+\vspace{-0.5em}
+\Point{Designed and implemented a novel motion-capture model from scratch using \textbf{PyTorch}, \textbf{ResNet50}, and CNNs.}
+\vspace{-0.5em}
+\Point{Analyzed over \textbf{20,000 images} to extract keypoints in 3D human poses with six degrees of freedom.}
+\vspace{-0.5em}
+\Point{Used GANs to generate synthetic images for enhanced training, achieving an accuracy of \textbf{0.80}.}
+
+\vspace{0.15em}
+\section{Projects}
+\datedsubsection{\textbf{Bachelor Thesis Project}}{\textcolor{mygray}{Apr 2025 - Jun 2026}}
+\textit{(Advised by Professor Sudip Misra, Department of Computer Science and Engineering, IIT Kharagpur)}
+\Point{Developed a multimodal crop-diagnosis framework combining \textbf{VLMs}, \textbf{LLMs}, and agronomic metadata for automated crop-stress and disease assessment.}
+\vspace{-0.5em}
+\Point{Designed a vision-language pipeline to extract semantic indicators such as leaf discoloration, lesions, texture variations, and other disease-related visual patterns.}
+\vspace{-0.5em}
+\Point{Integrated an LLM reasoning module to fuse visual evidence with contextual and sensor information, enabling interpretable diagnoses and actionable recommendations.}
+\vspace{-0.5em}
+\Point{Built an end-to-end \textbf{Flutter} application with a \textbf{Firebase} backend for real-time image capture, inference, and natural-language feedback.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Full Stack Web Development Intern - IIT Roorkee}}{\textcolor{mygray}{May 2024 - Jul 2024}}
+\textit{(Advised by Professor Sudip Roy, Department of Computer Science and Engineering, IIT Roorkee)}
+\Point{Created a dynamic website using \textbf{HTML}, \textbf{CSS}, \textbf{JavaScript}, \textbf{React.js}, and \textbf{Material-UI}.}
+\vspace{-0.5em}
+\Point{Implemented backend services with \textbf{Node.js}, \textbf{Express.js}, and \textbf{MongoDB} for data management.}
+\vspace{-0.5em}
+\Point{Added role-based login and file storage, and used \textbf{AWS} and \textbf{Docker} for deployment.}
+
+\vspace{0.1em}
+\datedsubsection{\textbf{Machine Learning Intern - IIT Delhi}}{\textcolor{mygray}{Jan 2024 - Apr 2024}}
+\textit{(Advised by Professor Shaurya Shriyam, Department of Mechanical Engineering, IIT Delhi)}
+\Point{Developed an ANN-based model using displacement and direction changes for \textbf{pedestrian trajectory prediction}.}
+\vspace{-0.5em}
+\Point{Improved trajectory accuracy through parameter tuning on \textbf{14,861 unidirectional} and \textbf{9,673 bidirectional} samples.}
+\vspace{-0.5em}
+\Point{Analyzed Social-LSTM, Social GAN, and SR-LSTM to improve spatiotemporal accuracy.}
+
+\vspace{0.15em}
+\section{Awards and Achievements}
+\Point{Secured AIR \textbf{4708} in \textbf{JEE Advanced 2022} among over 250,000 JEE Main-qualified candidates.}
+\vspace{-0.5em}
+\Point{Achieved \textbf{99.1 percentile} in \textbf{JEE Main 2022}, placing in the top 1\% among over 1,000,000 candidates.}
+\vspace{-0.5em}
+\Point{Ranked \textbf{318} in \textbf{WBJEE 2022} among approximately 100,000 candidates.}
+
+\vspace{0.15em}
+\section{Coursework Information}
+\Point{\textbf{Computer Science:} Programming and Data Structures, Algorithms, COA, Computer Networks, OOP, DBMS, OS}
+\vspace{-0.5em}
+\Point{\textbf{Machine Learning:} Artificial Intelligence Foundations and Applications, Linear Algebra, Soft Computing}
+\vspace{-0.5em}
+\Point{\textbf{Mathematics:} Advanced Calculus, Partial Differential Equations, Transform Calculus, Automata Theory}
+\vspace{-0.5em}
+\Point{\textbf{MOOCs:} Neural Networks and Deep Learning, Computer Vision, PINNs, Structuring ML Projects, Building LLMs}
+
+\vspace{0.15em}
+\section{Skills and Expertise}
+\Point{\textbf{Programming Languages:} C++, C, SQL, Python, JavaScript, HTML, CSS, Dart}
+\vspace{-0.5em}
+\Point{\textbf{Libraries and Frameworks:} PostgreSQL, MySQL, ReactJS, NodeJS, NumPy, Pandas, PyTorch}
+\vspace{-0.5em}
+\Point{\textbf{Software and Tools:} Git, GitHub, Google Colab, Jupyter, MATLAB, COMSOL, SolidWorks}
+
+\vspace{0.15em}
+\section{Position of Responsibility}
+\datedsubsection{\textbf{Secretary, Sports and Games}}{\textcolor{mygray}{Nov 2023 - Jun 2024}}
+\Point{Collaborated with hall council members to organize and manage sports events within the hostel.}
+\vspace{-0.5em}
+\Point{Managed a budget of 10,000 for training sessions, enhancing sports activities in the hall.}
+
+\end{document}
